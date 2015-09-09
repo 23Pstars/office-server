@@ -1,0 +1,25 @@
+RewriteEngine On
+
+# hidari directory listing
+Options -Indexes
+
+# jika bukan file
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# jika bukan folder
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# tingkat 1
+RewriteRule ^([0-9a-zA-Z-]+)/?$ index.php?tingkat1=$1 [NC,L,QSA]
+
+# tingkat 2
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/?$ index.php?tingkat1=$1&tingkat2=$2 [NC,L,QSA]
+
+# tingkat 3
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/?$ index.php?tingkat1=$1&tingkat2=$2&tingkat3=$3 [NC,L,QSA]
+
+# tingkat 4
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/?$ index.php?tingkat1=$1&tingkat2=$2&tingkat3=$3&tingkat4=$4 [NC,L,QSA]
+
+# tingkat 5
+RewriteRule ^([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/([0-9a-zA-Z-]+)/?$ index.php?tingkat1=$1&tingkat2=$2&tingkat3=$3&tingkat4=$4&tingkat5=$5 [NC,L,QSA]

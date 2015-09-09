@@ -1,0 +1,89 @@
+body.publik {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.publik .unram-splash {
+    background: #eee url('../images/unram-splash.jpg') no-repeat 0px -270px;
+    color: #fff;
+    text-shadow: 0 0 10px #7E7E7E;
+}
+.publik .form-masuk {
+    width: 230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.publik footer {
+    text-align: center;
+    font-size: 10px;
+    color: #555;
+}
+
+.publik .autentikasi {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.publik .info {
+    padding-top: 20px;
+}
+
+.publik .info .main {
+
+}
+
+.publik .info .sidebar {
+
+}
+
+
+
+
+
+/* ======= VIEW ======== */
+
+body.view {
+    padding-top: 50px;
+}
+.view .sidebar {
+    padding: 20px 0;
+    background: #eee;
+}
+.view .main {
+
+}
+.view .main .page-header {
+    margin-top: 20px;
+}
+.view footer {
+    text-align: center;
+    font-size: 10px;
+    color: #555;
+}
+.nav-sidebar {
+
+}
+.nav-sidebar > li.active > a,
+.nav-sidebar > li > a:hover {
+    color: #fff;
+    background-color: #428bca;
+}
+.nav-sidebar > li > a {
+    padding: 8px 15px;
+}
+.nav-sidebar > li > .nav-sidebar {
+    background-color: #F5F5F5;
+    border-top: thin solid #D8D8D8;
+}
+.nav-sidebar > li > .nav-sidebar li a {
+    padding-left: 25px;
+}
+.nav-sidebar > li > .nav-sidebar li.active a,
+.nav-sidebar > li > .nav-sidebar li a:hover {
+    background-color: #A8C9E5;
+}
+
+
+.jumbotron {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
